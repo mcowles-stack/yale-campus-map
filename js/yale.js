@@ -8,7 +8,7 @@ var tyler = {
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-72.9272, 41.3120] },
+      "geometry": { "type": "Point", "coordinates": [-72.9272, 41.3115] },
       "properties": { "name": "Beinecke Rare Book Library" }
     },
     {
