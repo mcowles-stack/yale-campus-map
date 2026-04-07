@@ -78,29 +78,12 @@
     opacity: 1,
     fillOpacity: 0.7
 };
-<script>
-	//1. Define the style function FIRSt
-	function myStyle(feature) {
-		return {
-			radius: 8,
-			fillColor: feature.properties.color || 'blue',
-			color: "#000",
-			weight: 1,
-			opacity: 1,
-			fillOpacity: 0.8
-		};
-	}
-//Load in geojson
-    var tylerLayer =   L.geoJSON(tyler, {
-		pointToLayer: function (feature, latlng) {
-			return L.circleMarker(latlng);
-		},
-        style: myStyle
+	//Load in geojson
+    var tyler =   L.geoJSON(tyler, {
+		style: myStyle
     }).bindPopup(function (layer) {
-       return layer.feature.properties.name;
+       return "" + layer.feature.properties.name
     }).addTo(map).bringToBack();
-</script>
-
 
 console.log("Map loaded successfully!");
     </script>
