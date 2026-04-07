@@ -18,7 +18,7 @@ var tyler = {
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-72.9270, 41.3094] },
+      "geometry": { "type": "Point", "coordinates": [-72.9285, 41.3087] },
       "properties": { "name": "Old Campus" }
     },
     {
