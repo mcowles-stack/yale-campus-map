@@ -4,22 +4,22 @@ var tyler = {
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-72.9279, 41.3114] },
-      "properties": { "name": "Sterling Memorial Library" }
+      "properties": { "name": "Sterling Memorial Library", "color": "blue" }
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-72.9272, 41.3120] },
-      "properties": { "name": "Beinecke Rare Book Library" }
+      "properties": { "name": "Beinecke Rare Book Library", "color": "blue" }
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-72.9313, 41.3085] },
-      "properties": { "name": "Yale University Art Gallery" }
+      "properties": { "name": "Yale University Art Gallery", "color": "blue" }
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-72.9270, 41.3094] },
-      "properties": { "name": "Old Campus" }
+      "properties": { "name": "Old Campus", "color": "blue" }
     },
     {
       "type": "Feature",
