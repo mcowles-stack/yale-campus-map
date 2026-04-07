@@ -23,7 +23,7 @@ var tyler = {
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-72.924983, 41.314971] },
+      "geometry": { "type": "Point", "coordinates": [-72.9249, 41.3149] },
       "properties": { "name": "Benjamin Franklin College" }
     }
   ]
