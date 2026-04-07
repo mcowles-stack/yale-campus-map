@@ -23,8 +23,8 @@ var tyler = {
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-72.9234, 41.3199] },
-      "properties": { "name": "Payne Whitney Gymnasium" }
+      "geometry": { "type": "Point", "coordinates": [-72.924983, 41.314971] },
+      "properties": { "name": "Benjamin Franklin College" }
     }
   ]
 };
