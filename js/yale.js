@@ -40,6 +40,6 @@ var tyler = {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-72.55, 41.18] },
       "properties": { "name": "Trumbull College" }
-    },
+    }
   ]
 };
