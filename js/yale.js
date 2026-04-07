@@ -30,6 +30,16 @@ var tyler = {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-72.9254, 41.3155] },
       "properties": { "name": "Pauli Murray College" }
-    }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-72.9254, 41.3110] },
+      "properties": { "name": "Silliman College" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-72.55, 41.18] },
+      "properties": { "name": "Trumbull College" }
+    },
   ]
 };
