@@ -38,7 +38,7 @@ var tyler = {
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-72.9291, 41.3108] },
+      "geometry": { "type": "Point", "coordinates": [-72.9254, 41.3108] },
       "properties": { "name": "Trumbull College" }
     }
   ]
