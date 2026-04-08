@@ -26,7 +26,7 @@ var tyler = {
       "geometry": { "type": "Point", "coordinates": [-72.9249, 41.3149] },
       "properties": { "name": "Benjamin Franklin College" }
     },
-     {
+    {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-72.9254, 41.3155] },
       "properties": { "name": "Pauli Murray College" }
