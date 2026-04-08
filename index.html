@@ -84,8 +84,9 @@ var tyler = L.geoJSON(tyler, {
       pointToLayer: function(feature, latlng) {
         var colors = {
    		  "academic":    "#00356b",  // Yale blue
-    	  "residential": "#cc0000"   // red
-    	  "athletics":   "#3D9970",  // green    
+    	  "residential": "#cc0000",  // red
+    	  "athletics":   "#3D9970",  // green 
+		  "arts": 		 "#f078e8"	 // purple/pink	
   };
 		  var color = colors[feature.properties.type] || "#978d85";
 		  return L.circleMarker(latlng, {
