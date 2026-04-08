@@ -3,7 +3,7 @@ var tyler = {
   "features": [
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-72.9279, 41.3110] },
+      "geometry": { "type": "Point", "coordinates": [-72.9291, 41.3113] },
       "properties": { "name": "Sterling Memorial Library" }
     },
     {
@@ -18,7 +18,7 @@ var tyler = {
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-72.9285, 41.3087] },
+      "geometry": { "type": "Point", "coordinates": [-72.9285, 41.3085] },
       "properties": { "name": "Old Campus" }
     },
     {
