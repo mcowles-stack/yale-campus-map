@@ -38,7 +38,7 @@ var tyler = {
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-72.9254, 41.3108] },
+      "geometry": { "type": "Point", "coordinates": [-72.9299, 41.3107] },
       "properties": { "name": "Trumbull College", "type": "residential" }
     },
     {
@@ -90,6 +90,41 @@ var tyler = {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-72.9233, 41.3105] },
       "properties": { "name": "Timothy Dwight College", "type": "residential" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-72.9202, 41.3152] },
+      "properties": { "name": "Yale School of Management", "type": "academic" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-72.9305, 41.3136] },
+      "properties": { "name": "Payne Whitney Gym", "type": "athletics" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-72.9315, 41.3082] },
+      "properties": { "name": "Yale Repertory Theater", "type": "arts" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-72.9309, 41.3079] },
+      "properties": { "name": "Yale Center for British Art", "type": "arts" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-72.9236, 41.3169] },
+      "properties": { "name": "Yale School of the Environment", "type": "academic" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-72.9244, 41.3148] },
+      "properties": { "name": "Jackson School of Global Affairs", "type": "academic" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-72.9250, 41.3165] },
+      "properties": { "name": "Ingalls Ice Rink (The Whale)", "type": "athletics" }
     }
   ]
 };
