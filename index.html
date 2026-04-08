@@ -82,8 +82,8 @@ var tyler = L.geoJSON(tyler, {
          icon: L.icon({
            iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-' + color + '.png',
            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-           iconSize: [25, 41],
-           iconAnchor: [12, 41],
+           iconSize: [15, 25],
+           iconAnchor: [7, 25],
            popupAnchor: [1, -34],
          })
        });
@@ -92,6 +92,23 @@ var tyler = L.geoJSON(tyler, {
    return "" + layer.feature.properties.name
 }).addTo(map).bringToBack();
 
+var legend = L.control({ position: 'bottomright' });
+
+legend.onAdd = function() {
+  var div = L.DomUtil.create('div');
+  div.style.cssText = 'background:white; padding:10px 14px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.2); font-size:13px;';
+  div.innerHTML = `
+    <strong>Map Legend</strong><br><br>
+    <img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png" height="20"> Academic<br><br>
+    <img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png" height="20"> Residential College<br><br>
+    <img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png" height="20"> Athletics<br><br>
+    <img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-gold.png" height="20"> Arts<br><br>
+  `;
+  return div;
+};
+
+legend.addTo(map);
+		
 console.log("Map loaded successfully!");
     </script>
 
